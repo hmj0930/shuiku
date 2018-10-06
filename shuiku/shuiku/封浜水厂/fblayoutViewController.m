@@ -163,6 +163,7 @@
                 make.top.equalTo(weakself.view).offset(screenHeight*0.75478);
             }
             //hyy
+            //hmj
         }];
     }
 }
