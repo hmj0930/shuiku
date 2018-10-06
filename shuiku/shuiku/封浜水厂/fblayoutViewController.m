@@ -162,7 +162,6 @@
                 make.leading.equalTo(weakself.view).offset(screenWidth*0.71953);
                 make.top.equalTo(weakself.view).offset(screenHeight*0.75478);
             }
-            
         }];
     }
 }
