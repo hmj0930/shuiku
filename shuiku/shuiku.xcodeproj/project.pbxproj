@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D752C7152168EEF700527185 /* viewsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D752C7142168EEF700527185 /* viewsViewController.m */; };
 		D7DD94A8215C80C800B3309C /* AppDelegate.mm in Sources */ = {isa = PBXBuildFile; fileRef = D7DD94A7215C80C800B3309C /* AppDelegate.mm */; };
 		D7DD94AB215C80C800B3309C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D7DD94AA215C80C800B3309C /* ViewController.m */; };
 		D7DD94AE215C80C800B3309C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D7DD94AC215C80C800B3309C /* Main.storyboard */; };
@@ -71,6 +72,8 @@
 		D7E7C7C521674FFF00A5A621 /* fblayoutview.m in Sources */ = {isa = PBXBuildFile; fileRef = D7E7C7C421674FFF00A5A621 /* fblayoutview.m */; };
 		D7E7C7C72167502800A5A621 /* fblayoutview.xib in Resources */ = {isa = PBXBuildFile; fileRef = D7E7C7C62167502800A5A621 /* fblayoutview.xib */; };
 		D7E7C7CA2167540D00A5A621 /* fblayoutViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D7E7C7C92167540D00A5A621 /* fblayoutViewController.m */; };
+		D7E7C80B2168DFC700A5A621 /* twofiveoneView.m in Sources */ = {isa = PBXBuildFile; fileRef = D7E7C80A2168DFC700A5A621 /* twofiveoneView.m */; };
+		D7E7C80D2168DFF100A5A621 /* twofiveoneView.xib in Resources */ = {isa = PBXBuildFile; fileRef = D7E7C80C2168DFF100A5A621 /* twofiveoneView.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -91,6 +94,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		D752C7132168EEF700527185 /* viewsViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = viewsViewController.h; sourceTree = "<group>"; };
+		D752C7142168EEF700527185 /* viewsViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = viewsViewController.m; sourceTree = "<group>"; };
 		D7DD94A3215C80C700B3309C /* shuiku.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = shuiku.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D7DD94A6215C80C800B3309C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		D7DD94A7215C80C800B3309C /* AppDelegate.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = AppDelegate.mm; sourceTree = "<group>"; };
@@ -206,6 +211,9 @@
 		D7E7C7C62167502800A5A621 /* fblayoutview.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = fblayoutview.xib; sourceTree = "<group>"; };
 		D7E7C7C82167540D00A5A621 /* fblayoutViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = fblayoutViewController.h; sourceTree = "<group>"; };
 		D7E7C7C92167540D00A5A621 /* fblayoutViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = fblayoutViewController.m; sourceTree = "<group>"; };
+		D7E7C8092168DFC700A5A621 /* twofiveoneView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = twofiveoneView.h; sourceTree = "<group>"; };
+		D7E7C80A2168DFC700A5A621 /* twofiveoneView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = twofiveoneView.m; sourceTree = "<group>"; };
+		D7E7C80C2168DFF100A5A621 /* twofiveoneView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = twofiveoneView.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -484,11 +492,16 @@
 				D7E7C7BA216717F500A5A621 /* fengbangViewController.m */,
 				D7E7C7C82167540D00A5A621 /* fblayoutViewController.h */,
 				D7E7C7C92167540D00A5A621 /* fblayoutViewController.m */,
+				D752C7132168EEF700527185 /* viewsViewController.h */,
+				D752C7142168EEF700527185 /* viewsViewController.m */,
 				D7E7C7C02167459200A5A621 /* customButton.h */,
 				D7E7C7C12167459200A5A621 /* customButton.m */,
 				D7E7C7C321674FFF00A5A621 /* fblayoutview.h */,
 				D7E7C7C421674FFF00A5A621 /* fblayoutview.m */,
 				D7E7C7C62167502800A5A621 /* fblayoutview.xib */,
+				D7E7C8092168DFC700A5A621 /* twofiveoneView.h */,
+				D7E7C80A2168DFC700A5A621 /* twofiveoneView.m */,
+				D7E7C80C2168DFF100A5A621 /* twofiveoneView.xib */,
 			);
 			path = "封浜水厂";
 			sourceTree = "<group>";
@@ -605,6 +618,7 @@
 				D7E7C7C72167502800A5A621 /* fblayoutview.xib in Resources */,
 				D7E7C7AD216701BF00A5A621 /* LICENSE in Resources */,
 				D7DD94B0215C80C800B3309C /* Assets.xcassets in Resources */,
+				D7E7C80D2168DFF100A5A621 /* twofiveoneView.xib in Resources */,
 				D7DD94AE215C80C800B3309C /* Main.storyboard in Resources */,
 				D7E7C7AE216701BF00A5A621 /* README.md in Resources */,
 				D7E7C775216701B000A5A621 /* LICENSE in Resources */,
@@ -633,6 +647,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D7E7C7CA2167540D00A5A621 /* fblayoutViewController.m in Sources */,
+				D752C7152168EEF700527185 /* viewsViewController.m in Sources */,
 				D7E7C7C521674FFF00A5A621 /* fblayoutview.m in Sources */,
 				D7E7C7C22167459200A5A621 /* customButton.m in Sources */,
 				D7E7C7B5216701BF00A5A621 /* UIProgressView+AFNetworking.m in Sources */,
@@ -656,6 +671,7 @@
 				D7E7C778216701B100A5A621 /* MASConstraintMaker.m in Sources */,
 				D7E7C7AA216701BF00A5A621 /* AFURLRequestSerialization.m in Sources */,
 				D7E7C7B4216701BF00A5A621 /* UIImageView+AFNetworking.m in Sources */,
+				D7E7C80B2168DFC700A5A621 /* twofiveoneView.m in Sources */,
 				D7E7C7A8216701BF00A5A621 /* AFNetworkReachabilityManager.m in Sources */,
 				D7E7C7AB216701BF00A5A621 /* AFURLResponseSerialization.m in Sources */,
 				D7E7C77C216701B100A5A621 /* NSArray+MASAdditions.m in Sources */,

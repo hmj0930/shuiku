@@ -9,6 +9,7 @@
 #import "fengbangViewController.h"
 #import "customButton.h"
 #import "fblayoutViewController.h"
+#import "viewsViewController.h"
 
 @interface fengbangViewController ()
 
@@ -60,6 +61,8 @@
     if (button==self.leftButton) {
         [self.navigationController pushViewController:[fblayoutViewController new] animated:YES];
     }
+    
+    [self.navigationController pushViewController:[viewsViewController new] animated:YES];
 }
 
 - (void)viewDidLoad {
